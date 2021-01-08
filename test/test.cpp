@@ -1,4 +1,7 @@
 #include "../src/functions.h"
+#define CATCH_CONFIG_MAIN
+#include "../catch/catch.hpp"
+
 
 TEST_CASE("Sum are computed", "[sum]")
 {
@@ -9,7 +12,6 @@ TEST_CASE("Sum are computed", "[sum]")
     REQUIRE(0 == calculator.sum(0, 0));
     
 }
-
 
 TEST_CASE("Subtraction are computed", "[subtraction]")
 {
