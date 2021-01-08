@@ -41,8 +41,9 @@ int Menu::input(){
     } else {
         switch (choose) {
         case 1: {
-            cout << "Input numbers: ";
+            cout << "Input fitst number: ";
             cin >> a;
+            cout << "Input second number: ";
             cin >> b;
             cout << "Result: " << a << " + " << b << " = " << sum(a, b) << endl;
             system("pause");
@@ -50,8 +51,9 @@ int Menu::input(){
             break;
         }
         case 2: {
-            cout << "Input numbers: ";
+            cout << "Input fitst number: ";
             cin >> a;
+            cout << "Input second number: ";
             cin >> b;
             cout << "Result: " << a << " - " << b << " = " << subtraction(a, b) 
                  << endl;
@@ -60,8 +62,9 @@ int Menu::input(){
             break;
         }
         case 3: {
-            cout << "Input numbers: ";
+            cout << "Input fitst number: ";
             cin >> a;
+            cout << "Input second number: ";
             cin >> b;
             cout << "Result: " << a << " * " << b << " = "
                  << multiplication(a, b) << endl;
@@ -70,8 +73,9 @@ int Menu::input(){
             break;
         }
         case 4: {
-            cout << "Input numbers: ";
+            cout << "Input fitst number: ";
             cin >> a;
+            cout << "Input second number: ";
             cin >> b;
             if (b <= 0) {
                 cout << "division by 0 is not possible" << endl;
@@ -87,8 +91,9 @@ int Menu::input(){
             break;
         }
         case 5: {
-            cout << "Input numbers: ";
+            cout << "Input fitst number: ";
             cin >> a;
+            cout << "Input second number: ";
             cin >> b;
             if (b < 0) {
                 cout << "i can't do it sorry" << endl;
