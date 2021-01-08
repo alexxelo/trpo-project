@@ -1,7 +1,7 @@
 #include "functions.h"
 
-int main()
-{
+int main(){
+    
     Menu calculator = Menu();
     calculator.input();
 

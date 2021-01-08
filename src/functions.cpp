@@ -1,34 +1,28 @@
 #include "functions.h"
 
-int Menu::sum(int a, int b)
-{
+int Menu::sum(int a, int b){
     return a + b;
 }
 
-int Menu::subtraction(int a, int b)
-{
+int Menu::subtraction(int a, int b){
     return a - b;
 }
 
-int Menu::multiplication(int a, int b)
-{
+int Menu::multiplication(int a, int b){
     return a * b;
 }
 
-int Menu::division(int a, int b)
-{
+int Menu::division(int a, int b){
     return a / b;
 }
-int Menu::powerOfNumber(int a, int b)
-{
+int Menu::powerOfNumber(int a, int b){
     return pow(a, b);
 }
 
-int Menu::input()
-{
+int Menu::input(){
     int a, b;
 
-    int choose1;
+    int choose;
     system("cls");
 
     cout << "1. Sum" << endl;
@@ -38,14 +32,14 @@ int Menu::input()
     cout << "5. Power of number " << endl;
     cout << "6. Exit" << endl;
     cout << ">> ";
-    cin >> choose1;
+    cin >> choose;
 
-    if (choose1 < 0 || choose1 > 7) {
+    if (choose < 0 || choose > 7) {
         cout << "Invalid number!" << endl;
         system("pause");
         input();
     } else {
-        switch (choose1) {
+        switch (choose) {
         case 1: {
             cout << "Input numbers: ";
             cin >> a;
