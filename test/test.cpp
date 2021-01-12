@@ -1,4 +1,4 @@
-#include "../src/functions.h"
+#include "../src/functions.cpp"
 #define CATCH_CONFIG_MAIN
 #include "../catch/catch.hpp"
 
